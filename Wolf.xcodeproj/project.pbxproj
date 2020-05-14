@@ -15,6 +15,7 @@
 		58AC7BA8246CC9E600BEF2E4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC7BA5246CC9E600BEF2E4 /* Home.swift */; };
 		58AC7BA9246CC9E600BEF2E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC7BA6246CC9E600BEF2E4 /* ContentView.swift */; };
 		58AC7BAA246CC9E600BEF2E4 /* ImageCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC7BA7246CC9E600BEF2E4 /* ImageCarousel.swift */; };
+		58AC7BB0246DF7E200BEF2E4 /* FloatingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC7BAF246DF7E200BEF2E4 /* FloatingMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		58AC7BA5246CC9E600BEF2E4 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		58AC7BA6246CC9E600BEF2E4 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58AC7BA7246CC9E600BEF2E4 /* ImageCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCarousel.swift; sourceTree = "<group>"; };
+		58AC7BAF246DF7E200BEF2E4 /* FloatingMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				58AC7B93246CC9CC00BEF2E4 /* SceneDelegate.swift */,
 				58AC7BA6246CC9E600BEF2E4 /* ContentView.swift */,
 				58AC7BA5246CC9E600BEF2E4 /* Home.swift */,
+				58AC7BAF246DF7E200BEF2E4 /* FloatingMenu.swift */,
 				58AC7BA7246CC9E600BEF2E4 /* ImageCarousel.swift */,
 				58AC7B97246CC9CD00BEF2E4 /* Assets.xcassets */,
 				58AC7B9C246CC9CD00BEF2E4 /* LaunchScreen.storyboard */,
@@ -156,6 +159,7 @@
 				58AC7BA8246CC9E600BEF2E4 /* Home.swift in Sources */,
 				58AC7BAA246CC9E600BEF2E4 /* ImageCarousel.swift in Sources */,
 				58AC7BA9246CC9E600BEF2E4 /* ContentView.swift in Sources */,
+				58AC7BB0246DF7E200BEF2E4 /* FloatingMenu.swift in Sources */,
 				58AC7B94246CC9CC00BEF2E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

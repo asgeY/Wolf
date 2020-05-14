@@ -1,6 +1,6 @@
 //
 //  ImageCarousel.swift
-//  Wolves
+//  Wolf
 //
 //  Created by Asge Yohannes on 5/13/20.
 //  Copyright © 2020 Asge Yohannes. All rights reserved.
