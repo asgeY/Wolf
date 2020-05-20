@@ -10,7 +10,7 @@ import SwiftUI
 
 struct Home: View {
     @State var index = 0
-    let images: [String] = ["1", "2", "3", "4", "5", "6"]
+    let images: [String] = ["1", "2", "3", "4", "5", "6","7","8","9","10","11"]
     
     let imageFrameSize: CGFloat = 50
     let imageFrameHeight: CGFloat = 650
@@ -19,7 +19,8 @@ struct Home: View {
     var body: some View {
         
         ZStack {
-            Color("Color").edgesIgnoringSafeArea(.all)
+            LinearGradient(Color.darkStart, Color.darkEnd)
+                .edgesIgnoringSafeArea(.all)
             VStack(alignment: .center) {
                 Text("Wolves")
                     .font(.largeTitle)
@@ -32,7 +33,7 @@ struct Home: View {
                             
                             Image(self.images[index])
                                 .resizable()
-                                .scaledToFill()
+                                .aspectRatio(contentMode: .fill)
                                 .frame(width: geometry.size.width - self.imageFrameSize, height: self.imageFrameHeight)
                                 .scaleEffect(self.index == index ? 1.0 : self.imageMinScaleRatio)
                                 .animation(.easeInOut)

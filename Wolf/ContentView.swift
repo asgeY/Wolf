@@ -9,17 +9,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isActivated:Bool = false
+    @ObservedObject var menuVM = MenuViewModel()
     var body: some View {
-        
-        ZStack(alignment: .bottomTrailing) {
-             Home()
-                   Rectangle()
-                       .foregroundColor(.clear)
-                       .frame(maxWidth: .infinity, maxHeight: .infinity)
-                   FloatingMenu()
-                       .padding()
-               }
-       
+        ZStack {
+            menuVM.selectedMenu.menuView
+            
+            VStack {
+                Spacer()
+                
+                ZStack {
+                    ForEach(0..<menuVM.menus.count) { i in
+                        MenuButton(isActivated: self.$isActivated,
+                                   menuVM: self.menuVM,
+                                   currentItemIndex: i)
+                    }
+                    SelectedMenu(isActivated: self.$isActivated,
+                                 menuItem: menuVM.selectedMenu)
+                }
+            }
+            .edgesIgnoringSafeArea(isActivated ? .all : .horizontal)
+            .animation(.spring())
+        }
     }
 }
 

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5801441C246E0157000E3CC6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801441B246E0157000E3CC6 /* Color.swift */; };
+		580144532473386F000E3CC6 /* WolfList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580144512473386F000E3CC6 /* WolfList.swift */; };
+		580144542473386F000E3CC6 /* WolfDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580144522473386F000E3CC6 /* WolfDetail.swift */; };
+		5801445824734253000E3CC6 /* WolfImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801445724734253000E3CC6 /* WolfImage.swift */; };
+		5801445C2475DEB8000E3CC6 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580144592475DEB8000E3CC6 /* MenuViewModel.swift */; };
+		5801445D2475DEB8000E3CC6 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801445A2475DEB8000E3CC6 /* MenuButton.swift */; };
+		5801445E2475DEB8000E3CC6 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801445B2475DEB8000E3CC6 /* MenuItem.swift */; };
+		580144632475E3F3000E3CC6 /* WolfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580144622475E3F3000E3CC6 /* WolfView.swift */; };
 		58AC7B92246CC9CC00BEF2E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC7B91246CC9CC00BEF2E4 /* AppDelegate.swift */; };
 		58AC7B94246CC9CC00BEF2E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC7B93246CC9CC00BEF2E4 /* SceneDelegate.swift */; };
 		58AC7B98246CC9CD00BEF2E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AC7B97246CC9CD00BEF2E4 /* Assets.xcassets */; };
@@ -15,10 +23,17 @@
 		58AC7BA8246CC9E600BEF2E4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC7BA5246CC9E600BEF2E4 /* Home.swift */; };
 		58AC7BA9246CC9E600BEF2E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC7BA6246CC9E600BEF2E4 /* ContentView.swift */; };
 		58AC7BAA246CC9E600BEF2E4 /* ImageCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC7BA7246CC9E600BEF2E4 /* ImageCarousel.swift */; };
-		58AC7BB0246DF7E200BEF2E4 /* FloatingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC7BAF246DF7E200BEF2E4 /* FloatingMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5801441B246E0157000E3CC6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		580144512473386F000E3CC6 /* WolfList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WolfList.swift; sourceTree = "<group>"; };
+		580144522473386F000E3CC6 /* WolfDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WolfDetail.swift; sourceTree = "<group>"; };
+		5801445724734253000E3CC6 /* WolfImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolfImage.swift; sourceTree = "<group>"; };
+		580144592475DEB8000E3CC6 /* MenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		5801445A2475DEB8000E3CC6 /* MenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		5801445B2475DEB8000E3CC6 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		580144622475E3F3000E3CC6 /* WolfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolfView.swift; sourceTree = "<group>"; };
 		58AC7B8E246CC9CC00BEF2E4 /* Wolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AC7B91246CC9CC00BEF2E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58AC7B93246CC9CC00BEF2E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +44,6 @@
 		58AC7BA5246CC9E600BEF2E4 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		58AC7BA6246CC9E600BEF2E4 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58AC7BA7246CC9E600BEF2E4 /* ImageCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCarousel.swift; sourceTree = "<group>"; };
-		58AC7BAF246DF7E200BEF2E4 /* FloatingMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5801445F2475DEC0000E3CC6 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				5801445A2475DEB8000E3CC6 /* MenuButton.swift */,
+				5801445B2475DEB8000E3CC6 /* MenuItem.swift */,
+				580144592475DEB8000E3CC6 /* MenuViewModel.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		58AC7B85246CC9CC00BEF2E4 = {
 			isa = PBXGroup;
 			children = (
@@ -65,9 +89,14 @@
 				58AC7B91246CC9CC00BEF2E4 /* AppDelegate.swift */,
 				58AC7B93246CC9CC00BEF2E4 /* SceneDelegate.swift */,
 				58AC7BA6246CC9E600BEF2E4 /* ContentView.swift */,
+				5801441B246E0157000E3CC6 /* Color.swift */,
 				58AC7BA5246CC9E600BEF2E4 /* Home.swift */,
-				58AC7BAF246DF7E200BEF2E4 /* FloatingMenu.swift */,
 				58AC7BA7246CC9E600BEF2E4 /* ImageCarousel.swift */,
+				5801445724734253000E3CC6 /* WolfImage.swift */,
+				580144522473386F000E3CC6 /* WolfDetail.swift */,
+				580144622475E3F3000E3CC6 /* WolfView.swift */,
+				580144512473386F000E3CC6 /* WolfList.swift */,
+				5801445F2475DEC0000E3CC6 /* Menu */,
 				58AC7B97246CC9CD00BEF2E4 /* Assets.xcassets */,
 				58AC7B9C246CC9CD00BEF2E4 /* LaunchScreen.storyboard */,
 				58AC7B9F246CC9CD00BEF2E4 /* Info.plist */,
@@ -155,12 +184,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580144532473386F000E3CC6 /* WolfList.swift in Sources */,
+				5801445824734253000E3CC6 /* WolfImage.swift in Sources */,
 				58AC7B92246CC9CC00BEF2E4 /* AppDelegate.swift in Sources */,
 				58AC7BA8246CC9E600BEF2E4 /* Home.swift in Sources */,
+				580144542473386F000E3CC6 /* WolfDetail.swift in Sources */,
+				5801445C2475DEB8000E3CC6 /* MenuViewModel.swift in Sources */,
+				5801445E2475DEB8000E3CC6 /* MenuItem.swift in Sources */,
+				5801441C246E0157000E3CC6 /* Color.swift in Sources */,
 				58AC7BAA246CC9E600BEF2E4 /* ImageCarousel.swift in Sources */,
+				5801445D2475DEB8000E3CC6 /* MenuButton.swift in Sources */,
 				58AC7BA9246CC9E600BEF2E4 /* ContentView.swift in Sources */,
-				58AC7BB0246DF7E200BEF2E4 /* FloatingMenu.swift in Sources */,
 				58AC7B94246CC9CC00BEF2E4 /* SceneDelegate.swift in Sources */,
+				580144632475E3F3000E3CC6 /* WolfView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
